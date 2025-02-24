@@ -1,10 +1,5 @@
-from main import BooksCollector
 import pytest
 
-
-@pytest.fixture
-def test_book():
-    return BooksCollector()
 
 class TestBooksCollector:
 
